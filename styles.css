@@ -38,14 +38,13 @@ footer {
     color: #666;
 }
 ul {
-    list-style-position: inside;
-    padding-left: 1rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    margin: 1rem 0;
+  list-style-position: inside; /* optional */
+  padding-left: 0;
+  text-align: center;
 }
 li {
-    margin-bottom: 0.5rem;
+  display: inline-block;
+  margin: 0 10px;
 }
 #main-title {
     text-align: center;
