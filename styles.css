@@ -38,12 +38,12 @@ footer {
     color: #666;
 }
 ul {
-  list-style-position: inside; /* optional */
+  display: flex;
+  justify-content: center;
   padding-left: 0;
-  text-align: center;
+  list-style: none; /* optional if you want no bullets */
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 #main-title {
