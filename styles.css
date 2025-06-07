@@ -38,13 +38,14 @@ footer {
     color: #666;
 }
 ul {
-  display: flex;
-  justify-content: center;
-  padding-left: 0;
-  list-style: none; /* optional if you want no bullets */
+    list-style-position: inside;
+    padding-left: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
 }
 li {
-  margin: 0 10px;
+  margin: 0.5rem;
 }
 #main-title {
     text-align: center;
@@ -122,4 +123,22 @@ li {
   #menu-toggle {
     display: block;
   }
+}
+/* Make all <a> tags inside paragraphs (or anywhere) styled */
+a {
+  color: #7289da; /* blurple-ish */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* Optional: more specific to just paragraphs */
+p a {
+  color: #7289da;
+}
+
+/* On hover */
+a:hover {
+  color: #5865F2; /* darker blurple */
+  text-decoration: underline;
 }
